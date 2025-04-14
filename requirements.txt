@@ -1,4 +1,6 @@
 numpy
+cython
+joblib
 pandas
 matplotlib
 streamlit==0.76.0
