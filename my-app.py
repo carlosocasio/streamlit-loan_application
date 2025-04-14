@@ -2,9 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle  
-import base64  
-
-
+import base64
+import sklearn
 
 # @st.cache_data(suppress_st_warning=True)
 @st.cache_data
@@ -18,7 +17,6 @@ def get_value(val,my_dict):
 		if val == key:            
 			return value
 app_mode = st.sidebar.selectbox(':blue[Select Page]',['Home','Prediction']) #two pages
-
 
 css="""
 <style>
