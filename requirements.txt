@@ -3,7 +3,7 @@ cython
 joblib
 pandas
 matplotlib
-streamlit==0.76.0
+streamlit
 Pillow
 seaborn
 scikit-learn==0.24.2
